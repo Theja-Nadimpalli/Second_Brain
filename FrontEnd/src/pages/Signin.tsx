@@ -41,7 +41,7 @@ try{
               <div className="ml-2 font-bold">Username</div>
               <Input type="text"  placeholder="username" reference={usernameRef}/>
               <div className="ml-2 font-bold">Password</div>
-              <Input type="text"  placeholder="password"  reference={passwordRef}/>
+              <Input type="password"  placeholder="password"  reference={passwordRef}/>
               <div className="mr-4 mt-4">
                 <Button onClick={signin} variant="primary" text="Signin" size="lg"/>
               </div>

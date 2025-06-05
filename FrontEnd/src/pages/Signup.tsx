@@ -41,7 +41,7 @@ export function Signup(){
               <div className="ml-2 font-bold">Username</div>
               <Input  reference={usernameRef} type="text"  placeholder="username"/>
               <div className="ml-2 font-bold">Password</div>
-              <Input reference={passwordRef} type="text"  placeholder="password"/>
+              <Input reference={passwordRef} type="password"  placeholder="password"/>
               <div className="mr-4 mt-4">
                  <Button onClick={signup} variant="primary" text="SignUp" size="lg"/>
               </div>
