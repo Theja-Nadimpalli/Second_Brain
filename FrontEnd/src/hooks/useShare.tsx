@@ -13,7 +13,7 @@ export function useShare(props:propstype) {
   const trigger = useRecoilValue(TriggerState)
 
   async function fetchContent() {
-    const response = await axios.get(`${BACKEND_URL}/brain/${shareLink}`);
+    const response = await axios.get(`${BACKEND_URL}/api/v1/brain/${shareLink}`);
     setUsername(response.data.username);
         if(props=="Home"){
         setContents(response.data.content)

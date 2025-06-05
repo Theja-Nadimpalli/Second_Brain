@@ -11,7 +11,7 @@ interface Shareprops{
 
 export function ShareComponent(props:Shareprops){
     const [link ,setlink]=useState("")
-    axios.post(`${BACKEND_URL}/brain/share`,{
+    axios.post(`${BACKEND_URL}/api/v1/brain/share`,{
     share : true
 },{
     headers :{

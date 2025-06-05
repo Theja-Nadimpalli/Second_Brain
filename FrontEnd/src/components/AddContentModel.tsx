@@ -35,7 +35,7 @@ async function addcontent (){
   const link = linkRef.current?.value
   const title = titleRef.current?.value
   
-  const response = await axios.post(`${BACKEND_URL}/content`,{
+  const response = await axios.post(`${BACKEND_URL}/api/v1/content`,{
     link : link,
     type : type,
     title : title,

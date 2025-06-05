@@ -16,7 +16,7 @@ export function useContent(props:propstype){
    
 
     async function fetchcontent(){
-       const response =  await axios.get(`${BACKEND_URL}/content`,{
+       const response =  await axios.get(`${BACKEND_URL}/api/v1/content`,{
             headers:{
                 Authorization : localStorage.getItem("token")
             }

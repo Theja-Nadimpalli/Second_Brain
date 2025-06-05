@@ -16,7 +16,7 @@ export function Signup(){
     let response = null
 
     try{
-      response = await axios.post(`${BACKEND_URL}/signup`,{
+      response = await axios.post(`${BACKEND_URL}/api/v1/signup`,{
         username :username,
         password:password
       })

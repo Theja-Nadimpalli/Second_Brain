@@ -43,7 +43,7 @@ export function Card(props:Cardprops) {
    }
 
    async function deleteContent(){
-    const response = await axios.delete(`${BACKEND_URL}/content`,{
+    const response = await axios.delete(`${BACKEND_URL}/api/v1/content`,{
       data: {
                contentid: props.contentid
             },
