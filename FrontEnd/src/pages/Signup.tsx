@@ -49,7 +49,7 @@ export function Signup(){
               <div>
                 <div className="flex gap-1 items-center ml-2">
                     <span className="flex font-bold">Already a customer?</span>
-                    <button className="bg-blue-500 text-white rounded-md cursor-pointer font-bold px-1 " onClick={signin}>Signin</button>
+                    <button className="bg-blue-800 text-white rounded-md cursor-pointer font-bold px-1 " onClick={signin}>Signin</button>
                 </div>
               </div>
 
