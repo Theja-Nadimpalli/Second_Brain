@@ -48,7 +48,7 @@ if(state){
     left-0 top-0 border rounded-l transition-all duration-1000">
          <div className="flex items-center gap-2 pl-4 mt-3 text-blue-800">
             <MainLogo size="size-7" />
-            <div className="text-2xl font-bold text-blue-800"> Brainly</div>
+            <div className="text-xl font-bold text-white "> Second Brain</div>
          </div>
          <hr className="h-px m-4 bg-white border-0 dark:bg-gray-700 shadow-2xs" />
          <Sidebaritems text="Home" icon={<Homeicon />} onClick={()=>{props.setcontentType?.("Home"); settrigger(x=>x+1)}}/>
