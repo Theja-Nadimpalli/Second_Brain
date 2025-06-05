@@ -1,5 +1,5 @@
 import mongoose from "mongoose"
-mongoose.connect("mongodb+srv://thejaraju:wgVmqEv8bTyxAC9v@theja.kixra.mongodb.net/Second_Brain")
+mongoose.connect(process.env.MONGODB_URL as string)
 const Schema = mongoose.Schema
 const Objectid = Schema.Types.ObjectId
 
