@@ -52,7 +52,7 @@ Here’s a quick peek at how the app looks:
 
 ### 🧳 **Welcome Page and Signup Page**
 ![Welcome Page](https://github.com/Theja-Nadimpalli/Second_Brain/blob/main/ScreenShots/WelcomePage.png.png?raw=true)
-![Signup Page](https://github.com/Theja-Nadimpalli/Second_Brain/blob/main/ScreenShots/WelcomePage.png.png?raw=true)
+![Signup Page](https://github.com/Theja-Nadimpalli/Second_Brain/blob/main/ScreenShots/SignUp.png.png?raw=true)
 
 ### 🧠 **Dashboard Interface**
 ![Dashboard Interface](https://github.com/Theja-Nadimpalli/Second_Brain/blob/main/ScreenShots/Dashboard.png.png?raw=true)
